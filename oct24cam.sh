@@ -1,0 +1,10 @@
+v4l2-ctl -d /dev/video2 -c backlight_compensation=0
+v4l2-ctl -d /dev/video2 -c exposure_auto=1
+v4l2-ctl -d /dev/video2 -c exposure_absolute=100
+v4l2-ctl -d /dev/video2 -c white_balance_temperature_auto=0
+v4l2-ctl -d /dev/video2 -c white_balance_temperature=3900
+v4l2-ctl -d /dev/video2 -c hue=-20
+v4l2-ctl -d /dev/video2 -c gamma=139
+v4l2-ctl -d /dev/video2 -c saturation=80
+v4l2-ctl -d /dev/video2 -c contrast=50
+v4l2-ctl -d /dev/video2 -c brightness=-20
