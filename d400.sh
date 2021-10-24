@@ -2,8 +2,8 @@
  v4l2-ctl -d /dev/video6 -c exposure_auto=1
  v4l2-ctl -d /dev/video6 -c white_balance_temperature=4100
  v4l2-ctl -d /dev/video6 -c exposure_absolute=200
- v4l2-ctl -d /dev/video6 -c contrast=40
+ v4l2-ctl -d /dev/video6 -c contrast=70
  v4l2-ctl -d /dev/video6 -c saturation=70
- v4l2-ctl -d /dev/video6 -c hue=20
- v4l2-ctl -d /dev/video6 -c brightness=-20
- v4l2-ctl -d /dev/video6 -c gamma=400
+ v4l2-ctl -d /dev/video6 -c hue=10
+ v4l2-ctl -d /dev/video6 -c brightness=40
+ v4l2-ctl -d /dev/video6 -c gamma=500
